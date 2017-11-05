@@ -350,7 +350,7 @@ def createStatistics():
         "clients":  getClients(),
         "traffic": getTraffic(),
         "idletime": float(open('/proc/uptime').read().split(' ')[1]),
-        "loadavg": float(open('/proc/loadavg').read().split(' ')[0]),
+        #"loadavg": float(open('/proc/loadavg').read().split(' ')[0]),
         "memory": getMemory(),
         "processes": dict(zip(('running', 'total'), map(int, open('/proc/loadavg').read().split(' ')[3].split('/')))),
         "uptime": float(open('/proc/uptime').read().split(' ')[0]),
