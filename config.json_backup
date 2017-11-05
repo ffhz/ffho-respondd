@@ -1,0 +1,24 @@
+{
+  "batman": "bat0",
+  "bridge": "br-ffharz",
+  "mesh-vpn": [ "mesh-vpn" ],
+  "mesh-wlan": [ "mesh0" ],
+  "nodeinfo": {
+    "network": {
+      "mac": "ca:ff:ee:ba:be:00"
+    },
+    "node_id": "caffeebabe00",
+    "owner": {
+        "contact": "technik@harz.freifunk.net"
+    },
+    "software": {
+      "firmware": {
+        "release": "0.00"
+      }
+    },
+    "system": {
+      "site_code": "ffharz"
+    },
+	"vpn": true
+  }
+}

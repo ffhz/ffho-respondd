@@ -35,6 +35,7 @@ systemctl daemon-reload
 systemctl enable respondd
 systemctl start respondd
 ```
+you can use `install.sh` to install.
 
 ## Related projects
 
